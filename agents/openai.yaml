@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill UX 70s"
+  short_description: "Plan website UX and layouts with shadcn/ui"
+  default_prompt: "Use $skill-ux-70s to define this page's UX and shadcn/ui layout for code implementation, Figma design, or both."
