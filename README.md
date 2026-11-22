@@ -14,8 +14,6 @@ Tolong instal Skill UX 70s di proyek ini dan targetkan instalasinya ke AI agent 
 npx skills add ihsan70s/skill-ux-70s --skill skill-ux-70s
 ```
 
-Repo ini privat. Akun GitHub yang dipakai saat instalasi perlu punya akses ke repo.
-
 ## Instal lewat terminal
 
 Perintah `npx skills` memerlukan Node.js 22.20 atau lebih baru. Jalankan perintah untuk agent kamu dari folder proyek tujuan.
