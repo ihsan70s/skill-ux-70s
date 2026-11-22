@@ -1,5 +1,7 @@
 # Skill UX 70s
 
+Bahasa Indonesia · [English](README.en.md)
+
 Skill untuk merancang alur, layout shadcn/ui, kondisi layar, dan microcopy sebelum halaman dibuat lewat kode atau di Figma.
 
 ## Instal lewat chat AI agent
@@ -14,9 +16,33 @@ npx skills add ihsan70s/skill-ux-70s --skill skill-ux-70s
 
 Repo ini privat. Akun GitHub yang dipakai saat instalasi perlu punya akses ke repo.
 
-## Instal dari folder lokal lewat npx
+## Instal lewat terminal
 
-Jalankan dari terminal di proyek tujuan. Instalasi ini memerlukan Node.js 22.20 atau lebih baru.
+Perintah `npx skills` memerlukan Node.js 22.20 atau lebih baru. Jalankan perintah untuk agent kamu dari folder proyek tujuan.
+
+**Codex**
+
+```powershell
+npx skills add ihsan70s/skill-ux-70s --skill skill-ux-70s --agent codex
+```
+
+**Claude Code**
+
+```powershell
+npx skills add ihsan70s/skill-ux-70s --skill skill-ux-70s --agent claude-code
+```
+
+**Gemini CLI**
+
+```powershell
+npx skills add ihsan70s/skill-ux-70s --skill skill-ux-70s --agent gemini-cli
+```
+
+Tambahkan `--global` ke perintah pilihanmu untuk memasang skill bagi semua proyek. Untuk agent lain yang didukung, hapus argumen `--agent` dan pilih agent saat diminta.
+
+### Instal dari folder lokal
+
+Kalau sudah punya salinan folder skill, jalankan perintah berikut dari proyek tujuan.
 
 ```powershell
 npx skills add '../skill-ux-70s' --skill skill-ux-70s --agent codex --copy
@@ -39,12 +65,20 @@ Contoh ini mengasumsikan folder `skill-ux-70s` berada di sebelah folder proyek t
    ├── agents/
    │   └── openai.yaml
    └── references/
-       └── components.md
+       ├── components.md
+       ├── prd.md
+       └── visual-direction.md
    ```
 
 3. Buka proyek di Codex dan panggil `$skill-ux-70s` di chat. Kalau skill belum muncul, mulai ulang Codex.
 
 ## Contoh pemakaian
+
+Minta agent menggunakan **Skill UX 70s**. Di Codex, kamu juga bisa memanggilnya dengan `$skill-ux-70s`.
+
+PRD, spesifikasi UX, dan pertanyaan di chat menggunakan Bahasa Indonesia. Teks antarmuka mengikuti bahasa produk jika sudah ditentukan.
+
+Untuk fitur atau halaman baru, siapkan PRD sebelum merancang UX. Jika belum ada, skill menawarkan [prompt PRD siap pakai](references/prd.md) dan membuat draf dari brief yang sudah kamu berikan.
 
 ```text
 $skill-ux-70s Rancang halaman daftar produk dengan komponen shadcn/ui.

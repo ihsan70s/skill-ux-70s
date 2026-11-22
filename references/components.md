@@ -1,94 +1,94 @@
-# shadcn/ui component map
+# Panduan komponen shadcn/ui
 
-Use this map to find a component family that fits the user's task. Start with the components supplied by the user or documented as available in the project. If there is no inventory, confirm candidates and their behavior in the [official component documentation](https://ui.shadcn.com/docs/components) and mark the selections as proposed. Treat an option outside a known inventory as a gap to flag in the UX specification.
+Gunakan panduan ini untuk memilih keluarga komponen yang sesuai dengan tugas pengguna. Utamakan komponen yang diberikan pengguna atau tersedia di proyek. Jika daftar belum ada, cek pilihan dan perilakunya di [dokumentasi resmi](https://ui.shadcn.com/docs/components) dan tandai pilihan sebagai usulan. Catat kebutuhan yang belum tercakup dalam spesifikasi UX.
 
-## Navigation and wayfinding
+## Navigasi dan orientasi
 
-| User need | Components to consider |
+| Kebutuhan pengguna | Komponen yang bisa dipilih |
 | --- | --- |
-| Move between major areas | Navigation Menu, Menubar, Sidebar |
-| Show the current location | Breadcrumb, Tabs |
-| Move through a long result set | Pagination, Scroll Area |
-| Open a contextual set of actions | Dropdown Menu, Context Menu |
+| Berpindah antarbagian | Navigation Menu, Menubar, Sidebar |
+| Menunjukkan posisi saat ini | Breadcrumb, Tabs |
+| Menelusuri hasil yang panjang | Pagination, Scroll Area |
+| Membuka aksi sesuai konteks | Dropdown Menu, Context Menu |
 
-## Forms and input
+## Formulir dan input
 
-| User need | Components to consider |
+| Kebutuhan pengguna | Komponen yang bisa dipilih |
 | --- | --- |
-| Enter short or long text | Input, Textarea, Input Group |
-| Select one or more values | Native Select, Select, Combobox, Checkbox, Radio Group, Toggle Group |
-| Set a yes/no preference | Switch |
-| Set a numeric range | Slider |
-| Enter a date | Calendar, Date Picker |
-| Enter a one-time code | Input OTP |
-| Group, label, and describe fields | Field, Label |
-| Submit a set of related values | Form patterns documented under Forms; pair fields with Button and clear validation feedback |
+| Mengisi teks pendek atau panjang | Input, Textarea, Input Group |
+| Memilih satu atau beberapa nilai | Native Select, Select, Combobox, Checkbox, Radio Group, Toggle Group |
+| Mengatur pilihan ya atau tidak | Switch |
+| Menentukan rentang angka | Slider |
+| Mengisi tanggal | Calendar, Date Picker |
+| Mengisi kode sekali pakai | Input OTP |
+| Mengelompokkan, melabeli, dan menjelaskan kolom | Field, Label |
+| Mengirim isian terkait | Pola formulir dengan Button dan pesan validasi yang jelas |
 
-## Actions and choices
+## Aksi dan pilihan
 
-| User need | Components to consider |
+| Kebutuhan pengguna | Komponen yang bisa dipilih |
 | --- | --- |
-| Trigger a primary or secondary action | Button, Button Group |
-| Toggle one option | Toggle |
-| Choose from command/search results | Command |
-| Confirm a consequential action | Alert Dialog |
+| Menjalankan aksi utama atau tambahan | Button, Button Group |
+| Mengaktifkan atau menonaktifkan satu opsi | Toggle |
+| Memilih dari hasil pencarian perintah | Command |
+| Mengonfirmasi aksi yang berdampak | Alert Dialog |
 
-## Information and status
+## Informasi dan status
 
-| User need | Components to consider |
+| Kebutuhan pengguna | Komponen yang bisa dipilih |
 | --- | --- |
-| Present a concise message or status | Alert, Message, Badge |
-| Show a temporary confirmation or update | Toast |
-| Show how far an operation has progressed | Progress |
-| Show activity or preview the shape of loading content | Spinner, Skeleton |
-| Explain a control on demand | Tooltip, Hover Card |
-| Show a person or identity | Avatar |
-| Provide an empty-state prompt | Empty |
-| Display or format content | Card, Item, Typography, Separator, Aspect Ratio |
-| Show a keyboard shortcut | Kbd |
+| Menampilkan pesan ringkas atau status | Alert, Message, Badge |
+| Menampilkan konfirmasi atau pembaruan sementara | Toast |
+| Menunjukkan progres proses | Progress |
+| Menunjukkan aktivitas atau bentuk konten yang sedang dimuat | Spinner, Skeleton |
+| Menjelaskan kontrol saat dibutuhkan | Tooltip, Hover Card |
+| Menampilkan identitas pengguna | Avatar |
+| Memberi petunjuk saat konten kosong | Empty |
+| Menampilkan atau memformat konten | Card, Item, Typography, Separator, Aspect Ratio |
+| Menampilkan pintasan keyboard | Kbd |
 
-## Overlays and progressive disclosure
+## Overlay dan informasi bertahap
 
-| User need | Components to consider |
+| Kebutuhan pengguna | Komponen yang bisa dipilih |
 | --- | --- |
-| Show a focused decision or short task | Dialog |
-| Show a mobile-friendly overlay panel | Drawer, Sheet |
-| Reveal supporting content near a trigger | Popover, Hover Card |
-| Expand optional details in place | Accordion, Collapsible |
+| Menampilkan keputusan atau tugas singkat | Dialog |
+| Menampilkan panel yang sesuai untuk mobile | Drawer, Sheet |
+| Menampilkan informasi tambahan dekat pemicu | Popover, Hover Card |
+| Membuka detail tambahan di tempat | Accordion, Collapsible |
 
-## Data and content
+## Data dan konten
 
-| User need | Components to consider |
+| Kebutuhan pengguna | Komponen yang bisa dipilih |
 | --- | --- |
-| Compare structured records | Table, Data Table |
-| Browse a sequence of visual items | Carousel |
-| Show a chart | Chart |
-| Show a media preview in a fixed shape | Aspect Ratio |
-| Attach or represent files | Attachment |
+| Membandingkan data terstruktur | Table, Data Table |
+| Menelusuri rangkaian item visual | Carousel |
+| Menampilkan grafik | Chart |
+| Menampilkan pratinjau media dengan rasio tetap | Aspect Ratio |
+| Melampirkan atau menampilkan file | Attachment |
 
-## Specialized and supporting components
+## Komponen khusus dan pendukung
 
-These components support specific product needs. Check their individual documentation before choosing them because their interaction patterns are more specialized.
+Cek dokumentasi tiap komponen untuk memahami pola interaksinya sebelum memilih.
 
-| Component | UX role to assess |
+| Komponen | Peran dalam UX |
 | --- | --- |
-| Bubble | Present a compact message or conversational item |
-| Code Block | Present code that users need to inspect or copy |
-| Direction | Set or communicate text and layout direction |
-| Marker | Mark or call attention to a point in content |
-| Message Scroller | Present a scrollable sequence of messages |
-| Questionnaire | Guide a user through a question-based flow |
-| Resizable | Let users adjust the space assigned to adjacent panels |
-| Trace | Present a trace or structured sequence for inspection |
+| Bubble | Menampilkan pesan singkat atau bagian percakapan |
+| Code Block | Menampilkan kode untuk dibaca atau disalin |
+| Direction | Mengatur atau menunjukkan arah teks dan layout |
+| Marker | Menandai bagian tertentu dalam konten |
+| Message Scroller | Menampilkan rangkaian pesan yang dapat digulir |
+| Questionnaire | Memandu pengguna melalui serangkaian pertanyaan |
+| Resizable | Memungkinkan pengguna mengatur lebar atau tinggi panel bersebelahan |
+| Trace | Menampilkan jejak atau rangkaian terstruktur untuk diperiksa |
 
-## Review questions
+## Pertanyaan tinjauan
 
-For each selected component, decide:
+Untuk tiap komponen, periksa:
 
-1. What user task does it support, and why does its interaction model fit?
-2. What information or action must be visible before the user commits?
-3. What are its relevant states, including disabled, pending, selected, empty, error, and success?
-4. What happens on keyboard, touch, narrow screens, and assistive technology?
-5. How does a user dismiss, undo, or recover from this interaction?
+1. Tugas apa yang didukung dan mengapa pola interaksinya sesuai?
+2. Informasi dan aksi apa yang harus terlihat sebelum pengguna mengambil keputusan?
+3. Kondisi apa yang relevan, seperti nonaktif, memuat, terpilih, kosong, gagal, dan berhasil?
+4. Bagaimana perilakunya dengan keyboard, sentuhan, layar sempit, dan teknologi bantu?
+5. Bagaimana pengguna menutup, membatalkan, atau memulihkan interaksi?
 
-The official component index evolves over time. Check it before adding or removing component families from this map.
+Cek indeks resmi sebelum menambahkan atau menghapus keluarga komponen dari panduan ini.
